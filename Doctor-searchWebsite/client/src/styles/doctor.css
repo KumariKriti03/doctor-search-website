@@ -1,0 +1,70 @@
+/* doctor.css */
+body{
+    background-color: #CCEAF4;
+}
+.doctor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: #CCEAF4;
+}
+
+.doctor-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 27%;
+    background-color: #fff;
+    color: black;
+    /* Set a fixed width or use percentages for responsiveness */
+    margin-bottom: 2%;
+    transition: all 0.3s;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+/* Hover state */
+.doctor-card:hover {
+    background-color: #3498db;
+    color: white;
+    transform: scale(1.05);
+    filter: contrast(1.75);
+}
+
+.doctor-details {
+    flex: 1;
+    width: 80%;
+}
+.apt-btn {
+    background-color: #5719AF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .apt-btn:hover {
+    background-color: #482178;
+  }
+
+
+
+.doctor-image img {
+    border-radius: 50%;
+    /* Make the image round */
+    width: 100%;
+    max-width: 120px;
+}
+
+
+@media (max-width: 600px) {
+    .doctor-card {
+        width: 100%;
+        /* Adjust width for smaller screens */
+    }
+}

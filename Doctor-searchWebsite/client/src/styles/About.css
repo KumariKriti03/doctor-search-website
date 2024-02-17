@@ -1,0 +1,74 @@
+/* About.css */
+
+.about-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 230px;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-blue-minimalistic-flat-medical-health-banner-background-image_210029.jpg');
+  background-size: cover;
+  margin: auto;
+  padding: 5%;
+  border: 2px solid #ccc;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.about-paragraph {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: rgba(121, 152, 255, 0.7);
+  border-radius: 10px;
+}
+
+.right-content {
+  width: 30%;
+}
+
+.right-content-image {
+  width: 45%;
+  max-height:max-content;
+}
+
+.vision-container {
+  background-color: #3498db;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.vision-heading {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.vision-paragraph {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+
+.what-we-offer-container {
+  background-color: #2ecc71;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.what-we-offer-heading {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.what-we-offer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.what-we-offer-list-item {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}

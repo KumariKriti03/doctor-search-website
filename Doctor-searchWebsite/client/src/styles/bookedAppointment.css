@@ -1,0 +1,41 @@
+/* BookedAppointment.css */
+
+.booked-appointment-container {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .doctor-details {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style the thank-you message */
+  h2 {
+    color: #5719AF;
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  /* Style the doctor details */
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
